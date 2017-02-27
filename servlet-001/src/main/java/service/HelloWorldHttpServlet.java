@@ -16,6 +16,7 @@ public class HelloWorldHttpServlet extends HttpServlet{
     @Override
     public void init() throws ServletException {
         System.out.println("http servlet init");
+        System.out.println("http servlet init");
     }
 
     @Override
