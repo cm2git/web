@@ -32,6 +32,7 @@ public class HelloWorldServlet implements Servlet{
             System.out.println(en.nextElement());
         }
         getServletContext().log("test servletContext log method");
+        getServletContext().log("test servletContext log method");
         System.out.println( getServletContext().getRealPath("/"));
         System.out.println( getServletContext().getResourcePaths("/"));
     }
